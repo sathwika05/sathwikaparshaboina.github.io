@@ -3,7 +3,7 @@ Responsive Portfolio Website!
 
 ## Preview
 
-![Home-Page](https://user-images.githubusercontent.com/55009076/142777183-58b52c75-50a5-407f-a22b-848ae0d08892.png)
+![preview](https://user-images.githubusercontent.com/55009076/153096311-9babb437-501a-4173-91a2-86a2596b4b0e.png)
 
 ## Features
 
