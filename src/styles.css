@@ -300,7 +300,7 @@ animation: typing 2s steps(12) infinite;
     font-size: 25px;
     padding-bottom: 20px;
   }
-  
+
 .projects {
     background: #eee;
     min-height: 100vh;
@@ -317,7 +317,11 @@ animation: typing 2s steps(12) infinite;
     justify-content: center;
     gap: 30px;
     padding: 40px 0;
+
+    align-items: flex-start;   /* NEW: don't stretch card heights */
+    align-content: flex-start; /* NEW: don't stretch rows vertically */
 }
+
 
 .projects .maincards .cards{
     width: 250px;                  /* SMALLER CARD */
