@@ -3,7 +3,7 @@ Responsive Portfolio Website!
 
 ## Preview
 
-![Beam Intake Workflow Preview](Screenshots/beam-health-preview.png)
+![preview](https://user-images.githubusercontent.com/55009076/158312709-75770fa8-0e8e-4dcd-9d93-549007f0cd98.png)
 
 ## Features
 
