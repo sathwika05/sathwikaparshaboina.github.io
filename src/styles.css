@@ -292,13 +292,12 @@ header .navbar ul li a:hover {
 }
 .experience .maincards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 3rem;
     padding: 4rem 0 2rem;
-    align-items: flex-start;
 }
 .experience .maincards .cards {
-    flex: 1 1 36rem;
+    width: 100%;
     background: var(--white);
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
