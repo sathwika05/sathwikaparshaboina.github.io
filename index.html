@@ -1,391 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sathwika Parshaboina | AI Engineer</title>
-    <meta name="description" content="AI Engineer with 4+ years building production-grade distributed systems and agentic AI applications. Specializing in LangGraph, RAG pipelines, multi-agent systems, and event-driven architectures.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sathwika Parshaboina — AI Software Engineer</title>
+<meta name="description" content="AI Software Engineer building intelligent systems for production. Agentic AI, RAG, voice agents, and the distributed infrastructure behind them.">
 
-    <!-- Open Graph -->
-    <meta property="og:url" content="https://sathwikap.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Sathwika Parshaboina | AI Engineer">
-    <meta property="og:description" content="AI Engineer with 4+ years building production-grade distributed systems and agentic AI applications.">
-    <meta property="og:image" content="https://sathwikap.com/src/Images/preview.png">
+<meta property="og:url" content="https://sathwikap.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sathwika Parshaboina — AI Software Engineer">
+<meta property="og:description" content="I build AI systems end to end — from intelligent workflows to the production infrastructure behind them.">
+<meta property="og:image" content="https://sathwikap.com/src/Images/preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sathwika Parshaboina — AI Software Engineer">
+<meta name="twitter:description" content="I build AI systems end to end — from intelligent workflows to the production infrastructure behind them.">
+<meta name="twitter:image" content="https://sathwikap.com/src/Images/preview.png">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="sathwikap.com">
-    <meta property="twitter:url" content="https://sathwikap.com/">
-    <meta name="twitter:title" content="Sathwika Parshaboina | AI Engineer">
-    <meta name="twitter:description" content="AI Engineer with 4+ years building production-grade distributed systems and agentic AI applications.">
-    <meta name="twitter:image" content="https://sathwikap.com/src/Images/preview.png">
-
-    <link rel="stylesheet" href="src/styles.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Inter:wght@300..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles.css?v=2">
+<script>
+/* Mark JS-capable before first paint so reveal targets can start hidden.
+   Without JS the page renders fully visible instead. */
+document.documentElement.className += ' js';
+/* If the scripts never arrive, don't leave the page behind the loader. */
+setTimeout(function () {
+  var b = document.getElementById('boot');
+  if (b) { b.remove(); document.body.classList.remove('is-booting'); }
+}, 5000);
+</script>
 </head>
-<body>
+<body class="is-booting">
 
-    <header>
-        <div class="user">
-            <img src="src/Images/Prof-image.jpg" alt="Sathwika Parshaboina">
+<div class="boot" id="boot">
+  <div class="boot__inner">
+    <span class="boot__name">Sathwika Parshaboina</span>
+    <span class="boot__count" id="bootCount">000</span>
+  </div>
+  <div class="boot__bar"><i id="bootBar"></i></div>
+</div>
+
+<div class="sky" id="sky" aria-hidden="true">
+  <i class="glow glow--core"></i>
+  <i class="glow glow--wide"></i>
+</div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__id" href="#home">
+    <img src="src/Images/Prof-image.jpg" alt="">
+    <span>Sathwika Parshaboina</span>
+  </a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#bring">Capabilities</a>
+    <a href="#work">Projects</a>
+  </nav>
+  <a class="nav__cta" href="#contact">
+    Get in touch
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+  </a>
+  <div class="nav__progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main>
+
+<!-- ═══ HERO ════════════════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero__wrap">
+
+    <div class="hero__main">
+      <div class="hero__copy">
+        <p class="hero__greet" data-boot="1">Hi, I'm</p>
+        <p class="hero__name" data-boot="2">Sathwika Parshaboina</p>
+
+        <h1 class="hero__title">
+          <span class="line"><span>AI Software Engineer</span></span>
+        </h1>
+
+        <p class="hero__tagline">
+          <span class="line"><span>Building AI systems <em>for production.</em></span></span>
+        </p>
+
+        <p class="hero__sub" data-boot="3">
+          I build AI systems end to end — from intelligent workflows and
+          retrieval to backend services, evaluation, and production
+          infrastructure.
+        </p>
+
+        <div class="hero__acts" data-boot="4">
+          <a class="btn btn--solid" href="#work">See the projects</a>
         </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+      </div>
 
-    <div id="menu" class="fas fa-bars"></div>
+      <div class="hero__portrait" data-boot="5">
+        <figure class="portrait">
+          <img src="src/Images/Prof-image.jpg" alt="Sathwika Parshaboina" width="2980" height="3341">
+        </figure>
+      </div>
+    </div>
 
-    <!-- ── HOME ── -->
-    <section class="home" id="home">
-        <h3>Hi, I'm</h3>
-        <h5><span>Sathwika Parshaboina</span></h5>
-        <div class="wrapper">
-            <div class="statictext">An</div>
-            <ul class="dynamictext">
-                <li><span>AI Engineer</span></li>
-                <li><span>Software Engineer</span></li>
-                <li><span>Full Stack Developer</span></li>
-                <li><span>Problem Solver</span></li>
-            </ul>
-        </div>
-        <p>AI Engineer &amp; Software Engineer with 4+ years building production-grade distributed systems and agentic AI applications at enterprise scale.</p>
-        <div class="socials">
-            <a href="http://linkedin.com/in/sathwikaparshaboina" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="28" height="28" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-            </a>
-            <a href="https://github.com/sathwika05" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="28" height="28" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-            </a>
-        </div>
-        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
-    </section>
+    <dl class="metrics" data-boot="6">
+      <div class="metric">
+        <dt class="metric__v"><b class="num" data-to="3" data-suffix="+">0</b><i class="metric__u">Years</i></dt>
+        <dd>Software engineering</dd>
+      </div>
+      <div class="metric">
+        <dt class="metric__v"><b class="num" data-to="360" data-suffix="M+">0</b></dt>
+        <dd>Pricing calculations / day</dd>
+      </div>
+      <div class="metric">
+        <dt class="metric__v"><b class="num" data-prefix="&lt;" data-to="200" data-suffix="ms">0</b></dt>
+        <dd>Production latency</dd>
+      </div>
+      <div class="metric">
+        <dt class="metric__v"><b class="num" data-to="85" data-suffix="%">0</b></dt>
+        <dd>Latency reduction</dd>
+      </div>
+    </dl>
 
-    <!-- ── ABOUT ── -->
-    <section class="about" id="about">
-        <h5 class="heading"><span>About Me</span></h5>
-        <div class="information">
-            <p>AI engineer with 4+ years building production-grade distributed systems and agentic AI applications at enterprise scale. Experienced in LangGraph, RAG pipelines, multi-agent systems, vector databases, Kubernetes, and low-latency event-driven architectures processing 360M+ automated decisions/day.</p>
-            <div class="row">
-                <div class="info">
-                    <p><b>AI / LLM:</b> LangChain, LangGraph, RAG, Multi-Agent Systems, OpenAI, Gemini, Claude, Ollama, Pinecone, pgvector, Chroma, Prompt Engineering, Semantic Search, Vector Databases</p>
-                    <p><b>Backend:</b> Node.js, NestJS, Python, FastAPI, Flask, Java, Kafka, RESTful APIs, PostgreSQL, MongoDB, JWT Authentication</p>
-                    <p><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+), TypeScript, React, Next.js, Redux, Material UI, Tailwind CSS</p>
-                    <p><b>DevOps &amp; Deployment:</b> AWS, NGINX, Kubernetes, Concourse CI/CD, ArgoCD, Bitbucket, Jenkins, Docker</p>
-                    <p><b>Version Control &amp; Collaboration:</b> Git, GitHub, GitLab, Agile/Scrum, Technical Documentation</p>
-                </div>
-            </div>
-            <p>Looking for opportunities to build intelligent, scalable systems where AI and software engineering intersect — delivering real business impact at enterprise scale.</p>
-        </div>
-    </section>
+  </div>
+</section>
 
-    <!-- ── EXPERIENCE ── -->
-    <section class="experience" id="experience">
-        <h5 class="heading"><span>Professional Experience</span></h5>
-        <div class="maincards">
+<!-- ═══ WHAT I BRING ════════════════════════════════════════════ -->
+<section class="bring" id="bring">
+  <div class="bring__head">
+    <p class="eyebrow">Capabilities</p>
+    <h2 class="sec-title">AI systems, end to end.</h2>
+  </div>
 
-            <div class="cards">
-                <div class="card-content">
-                    <h1 class="Title">Software Engineer &ndash; Avis Budget Group, NJ (Hybrid)</h1>
-                    <p class="exp-date">Jun 2022 &ndash; Jul 2025 &middot; 3 yrs 2 mos</p>
-                </div>
-                <div class="row">
-                    <ul style="list-style-type: square">
-                        <li><p>Developed and migrated a monolithic pricing platform into an AI-driven full-stack microservices architecture on AWS EC2 using Node.js, NestJS, Python, and FastAPI, enabling real-time dynamic pricing at scale.</p></li>
-                        <li><p>Served as a core developer, achieving optimal price calculations in under 200ms, significantly boosting market responsiveness.</p></li>
-                        <li><p>Enabled AI-driven dynamic pricing decisions by building real-time data pipelines and distributed services that processed competitor and market signals at scale, supporting automated decision workflows across the platform.</p></li>
-                        <li><p>Built a production-grade LLM-powered RAG chatbot for vendor and pricing intelligence documents using LangChain, pgvector, and semantic retrieval pipelines, enabling low-latency access to operational insights and reducing manual document investigation time.</p></li>
-                        <li><p>Implemented caching solutions with Redis and in-memory Pod storage to accelerate data retrieval and reduce database load.</p></li>
-                        <li><p>Enhanced database performance by 30&ndash;40% through advanced query optimization, strategic index creation, and automated purge mechanisms, resulting in faster response times and substantial storage savings.</p></li>
-                        <li><p>Built a logging system integrated with Dynatrace for monitoring and diagnostics, reducing error detection time by 50%.</p></li>
-                        <li><p>Performed code analysis, bug fixes, and functionality enhancements, improving stability and reducing error rates by 30%.</p></li>
-                    </ul>
-                </div>
-            </div>
+  <div class="bring__grid">
 
-            <div class="cards">
-                <div class="card-content">
-                    <h1 class="Title">Full Stack Developer Intern &ndash; Mantra Labs, Bengaluru, India</h1>
-                    <p class="exp-date">May 2019 &ndash; Oct 2019 &middot; 6 mos</p>
-                </div>
-                <div class="row">
-                    <ul style="list-style-type: square">
-                        <li><p>Engineered an internal job portal using Flask, MongoDB, and AWS, streamlining recruitment operations for 5+ departments.</p></li>
-                        <li><p>Built 10+ REST APIs and developed 20+ dynamic front-end pages, supporting over 1,000 job applications and 500 recruiter actions.</p></li>
-                        <li><p>Reduced resume entry time by 30% by implementing a bulk upload feature with intelligent parsing and validation.</p></li>
-                        <li><p>Optimized NoSQL queries and backend logic, boosting page load times by 40% during peak traffic.</p></li>
-                    </ul>
-                </div>
-            </div>
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2.6"/><circle cx="5" cy="18" r="2.6"/><circle cx="19" cy="18" r="2.6"/><path d="M10.3 6.9 6.4 15.5M13.7 6.9l3.9 8.6M7.6 18h8.8"/></svg></span><p class="cap__no">01</p></div>
+      <h3 class="cap__claim">Agentic AI</h3>
+      <p class="cap__body">Agents, multi-agent workflows, tool use, and orchestration.</p>
+    </article>
 
-        </div>
-    </section>
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5c0-1.4 3.6-2.5 8-2.5s8 1.1 8 2.5S15.4 9 11 9 3 7.9 3 6.5Z"/><path d="M3 6.5v11C3 18.9 6.6 20 11 20c1.3 0 2.6-.1 3.7-.3"/><path d="M19 6.5v5"/><circle cx="17.5" cy="16.5" r="3.2"/><path d="m20 19 2 2"/></svg></span><p class="cap__no">02</p></div>
+      <h3 class="cap__claim">RAG &amp; Knowledge Systems</h3>
+      <p class="cap__body">Retrieval, hybrid search, reranking, and grounded generation.</p>
+    </article>
 
-    <!-- ── PROJECTS ── -->
-    <section class="projects" id="projects">
-        <h5 class="heading"><span>Projects</span></h5>
-        <div class="maincards">
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12.4a8 8 0 1 0-3.2 6.4V21l3.2-1.7Z"/><path d="M8 10v4M11 8v8M14 10.5v3"/></svg></span><p class="cap__no">03</p></div>
+      <h3 class="cap__claim">Conversational &amp; Voice AI</h3>
+      <p class="cap__body">Real-time AI agents with streaming and backend tool execution.</p>
+    </article>
 
-            <!-- AI-Vid -->
-            <div class="cards">
-                <div class="projectimage">
-                    <img src="src/Images/video-systems.jpg" alt="AI-Vid — RAG-powered Video Intelligence Engine"/>
-                </div>
-                <div class="projecttitle"><h1>AI-Vid</h1></div>
-                <div class="projectdesc">
-                    <p>LLM-powered RAG video intelligence engine</p>
-                    <p><b>LangChain, pgvector, OpenAI</b></p>
-                    <p>Instant transcript Q&amp;A; 90% faster video analysis</p>
-                    <a class="demo-link" href="https://aivid-frontend.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
-                    <a class="github-link" href="https://github.com/sathwika05/AIVid" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                    </a>
-                </div>
-            </div>
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 8.1 7 9 4-.9 7-4.6 7-9V6Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg></span><p class="cap__no">04</p></div>
+      <h3 class="cap__claim">AI Evaluation &amp; Reliability</h3>
+      <p class="cap__body">Evaluation pipelines, guardrails, tracing, and observability.</p>
+    </article>
 
-            <!-- AI Appointment Intake Workflow -->
-            <div class="cards">
-                <div class="projectimage">
-                    <img src="src/Images/E-healthCare.jpg" alt="AI Appointment Intake Workflow"/>
-                </div>
-                <div class="projecttitle"><h1>AI Appointment Intake</h1></div>
-                <div class="projectdesc">
-                    <p>AI-assisted healthcare intake workflow</p>
-                    <p><b>OpenAI, NestJS, Node.js</b></p>
-                    <p>Automates next-day patient follow-ups; 40&ndash;60% less admin overhead</p>
-                    <a class="github-link" href="https://github.com/sathwika05/AI-Appointment-Intake-Workflow" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                    </a>
-                </div>
-            </div>
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01M11 7h4M11 17h4"/></svg></span><p class="cap__no">05</p></div>
+      <h3 class="cap__claim">Backend &amp; Distributed Systems</h3>
+      <p class="cap__body">Scalable APIs, event-driven systems, caching, and cloud infrastructure.</p>
+    </article>
 
-            <!-- AI Task Management -->
-            <div class="cards">
-                <div class="projectimage">
-                    <img src="src/Images/AI-task-manager-apps.jpg" alt="AI Task Management System"/>
-                </div>
-                <div class="projecttitle"><h1>AI Task Management</h1></div>
-                <div class="projectdesc">
-                    <p>AI-powered ticketing platform</p>
-                    <p><b>Gemini, Inngest, JWT Auth</b></p>
-                    <p>60% faster task resolution via auto-triage</p>
-                    <a class="github-link" href="https://github.com/sathwika05/AI-Task-Management-System" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                    </a>
-                </div>
-            </div>
+    <article class="cap" data-grp>
+      <div class="cap__top"><span class="cap__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v6M5 14v6M12 4v3M12 11v9M19 4v10M19 18v2"/><circle cx="5" cy="12" r="2"/><circle cx="12" cy="9" r="2"/><circle cx="19" cy="16" r="2"/></svg></span><p class="cap__no">06</p></div>
+      <h3 class="cap__claim">LLM Fine-Tuning</h3>
+      <p class="cap__body">PEFT, LoRA/QLoRA, quantization, and model adaptation.</p>
+    </article>
 
-            <!-- Facial Recognition -->
-            <div class="cards">
-                <div class="projectimage">
-                    <img src="src/Images/ArtificialFaceRecognization.jpg" alt="Facial Recognition System"/>
-                </div>
-                <div class="projecttitle"><h1>Artificial-Facial-Recognition-System</h1></div>
-                <div class="projectdesc">
-                    <p>Face Recognition Web App</p>
-                    <p><b>Python, OpenCV, Sklearn</b></p>
-                    <a class="github-link" href="https://github.com/sathwika05/Artificial-Facial-Recognition-System" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                    </a>
-                </div>
-            </div>
+  </div>
+</section>
 
-            <!-- AI DocCrawler -->
-            <div class="cards">
-                <div class="projectimage">
-                    <img src="src/Images/document-icon-images-8.jpg" alt="AI DocCrawler"/>
-                </div>
-                <div class="projecttitle"><h1>AI DocCrawler</h1></div>
-                <div class="projectdesc">
-                    <p>Autonomous documentation crawler</p>
-                    <p><b>LangChain, Pinecone, OpenAI</b></p>
-                    <p>90% faster semantic search across entire doc sites</p>
-                    <a class="github-link" href="https://github.com/sathwika05/AI-DocCrawler" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#222" width="40" height="40" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                    </a>
-                </div>
-            </div>
+<!-- ═══ PROJECTS ════════════════════════════════════════════════ -->
+<section class="work" id="work">
+  <div class="work__head">
+    <p class="eyebrow">Projects</p>
+    <h2 class="sec-title">Selected work.</h2>
+  </div>
 
-        </div>
-    </section>
+  <div class="work__grid">
 
-    <!-- ── SKILLS ── -->
-    <section class="skills" id="skills">
-        <h5 class="heading"><span>Skills</span></h5>
-        <div class="maincards">
+    <article class="card card--lead" data-card>
+      <p class="card__no">01</p>
+      <h3>AI Financial Intelligence Platform</h3>
+      <p class="card__what">
+        Evidence-grounded financial research system combining agentic
+        workflows, structured data, hybrid retrieval, ranking, and
+        automated evaluation.
+      </p>
+      <ol class="sys sys--sub" aria-label="Pipeline: question, plan, retrieve over SQL and vector, rank, analyze, evaluate, answer">
+        <li class="sys__n">Question</li>
+        <li class="sys__n">Plan</li>
+        <li class="sys__n is-key" data-sub>Retrieve<span>SQL + Vector</span></li>
+        <li class="sys__n">Rank</li>
+        <li class="sys__n">Analyze</li>
+        <li class="sys__n is-key" data-sub>Evaluate<span>Grounding + Reliability</span></li>
+        <li class="sys__n">Answer</li>
+      </ol>
+      <ul class="tags">
+        <li>LangGraph</li><li>FastAPI</li><li>PostgreSQL</li><li>pgvector</li><li>Redis</li>
+      </ul>
+      <div class="card__links">
+        <a class="btn btn--solid" href="https://fintel-case-study.onrender.com" target="_blank" rel="noopener noreferrer">Check it out <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
 
-            <!-- AI & LLM — text pills -->
-            <div class="cards">
-                <div class="card-content"><h1 class="Title">AI &amp; LLM</h1></div>
-                <div class="pills-row">
-                    <span class="pill">LangChain</span>
-                    <span class="pill">LangGraph</span>
-                    <span class="pill">RAG</span>
-                    <span class="pill">Multi-Agent Systems</span>
-                    <span class="pill">OpenAI</span>
-                    <span class="pill">Gemini</span>
-                    <span class="pill">Claude</span>
-                    <span class="pill">Ollama</span>
-                    <span class="pill">Pinecone</span>
-                    <span class="pill">pgvector</span>
-                    <span class="pill">Chroma</span>
-                    <span class="pill">Prompt Engineering</span>
-                    <span class="pill">Semantic Search</span>
-                    <span class="pill">Vector Databases</span>
-                </div>
-            </div>
+    <article class="card" data-card>
+      <p class="card__no">02</p>
+      <h3>Real-Time Voice AI Agent</h3>
+      <p class="card__what">
+        Real-time voice agent that handles hotel reservation workflows by
+        verifying guests, retrieving booking data, and executing reservation
+        changes through backend tools.
+      </p>
+      <ol class="sys sys--sub sys--long" aria-label="Workflow: guest speaks over a bidirectional voice stream to Nova Sonic, which executes tools to verify identity, retrieve the reservation and update the booking against reservation data, then responds">
+        <li class="sys__n">Guest</li>
+        <li class="sys__n sys__n--bi">Voice Stream</li>
+        <li class="sys__n is-key">Nova Sonic</li>
+        <li class="sys__n is-key" data-sub>Tool Execution<span>verify · retrieve · update</span></li>
+        <li class="sys__n">Reservation Data</li>
+        <li class="sys__n">Response</li>
+      </ol>
+      <ul class="tags">
+        <li>Amazon Nova Sonic</li><li>Bedrock</li><li>DynamoDB</li><li>Asyncio</li>
+      </ul>
+      <div class="card__links">
+        <a class="btn btn--solid" href="https://voice-reservation-agent.onrender.com/" target="_blank" rel="noopener noreferrer">Check it out <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
 
-            <!-- Languages & Databases -->
-            <div class="cards">
-                <div class="card-content"><h1 class="Title">Languages &amp; Databases</h1></div>
-                <div class="row">
-                    <div class="c"><img src="src/Images/Python.jpg" alt="Python"/><span class="skill-label">Python</span></div>
-                    <div class="c"><img src="src/Images/js-image.jpg" alt="JavaScript"/><span class="skill-label">JavaScript</span></div>
-                    <div class="c"><img src="src/Images/ts.jpg" alt="TypeScript"/><span class="skill-label">TypeScript</span></div>
-                    <div class="c"><img src="src/Images/java.jpg" alt="Java"/><span class="skill-label">Java</span></div>
-                    <div class="c"><img src="src/Images/postgresql.jpg" alt="PostgreSQL"/><span class="skill-label">PostgreSQL</span></div>
-                    <div class="c"><img src="src/Images/mongoDB.jpg" alt="MongoDB"/><span class="skill-label">MongoDB</span></div>
-                    <div class="c"><img src="src/Images/mysql.jpg" alt="MySQL"/><span class="skill-label">MySQL</span></div>
-                    <div class="c"><img src="src/Images/Firebase.jpg" alt="Firebase"/><span class="skill-label">Firebase</span></div>
-                </div>
-            </div>
+    <article class="card card--quiet" data-card>
+      <p class="card__no">03</p>
+      <h3>LLM Fine-Tuning</h3>
+      <p class="card__what">
+        Parameter-efficient LLM adaptation using fine-tuning and quantization.
+      </p>
+      <ol class="sys" aria-label="Pipeline: base model, QLoRA, fine-tune, adapted model">
+        <li class="sys__n">Base Model</li>
+        <li class="sys__n is-key">QLoRA</li>
+        <li class="sys__n">Fine-Tune</li>
+        <li class="sys__n">Adapted Model</li>
+      </ol>
+      <ul class="tags">
+        <li>PEFT</li><li>LoRA</li><li>QLoRA</li><li>Quantization</li><li>Hugging Face</li>
+      </ul>
+      <div class="card__links">
+        <a class="btn btn--solid" href="https://mixtral-qlora-console.onrender.com/" target="_blank" rel="noopener noreferrer">Check it out <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
 
-            <!-- Frontend -->
-            <div class="cards">
-                <div class="card-content"><h1 class="Title">Frontend</h1></div>
-                <div class="row">
-                    <div class="c"><img src="src/Images/html5.jpg" alt="HTML5"/><span class="skill-label">HTML5</span></div>
-                    <div class="c"><img src="src/Images/css.jpg" alt="CSS3"/><span class="skill-label">CSS3</span></div>
-                    <div class="c"><img src="src/Images/js-image.jpg" alt="JavaScript"/><span class="skill-label">JavaScript</span></div>
-                    <div class="c"><img src="src/Images/ts.jpg" alt="TypeScript"/><span class="skill-label">TypeScript</span></div>
-                </div>
-                <div class="pills-row">
-                    <span class="pill">Next.js</span>
-                    <span class="pill">Redux</span>
-                    <span class="pill">Material UI</span>
-                    <span class="pill">Tailwind CSS</span>
-                </div>
-            </div>
+    <article class="card card--quiet" data-card>
+      <p class="card__no">04</p>
+      <h3>Insurance Cost Estimator</h3>
+      <p class="card__what">
+        Regression-based insurance cost prediction served through a web
+        application.
+      </p>
+      <ol class="sys" aria-label="Pipeline: user inputs, regression model, cost prediction">
+        <li class="sys__n">User Inputs</li>
+        <li class="sys__n is-key">Regression Model</li>
+        <li class="sys__n">Cost Prediction</li>
+      </ol>
+      <ul class="tags">
+        <li>Regression</li><li>FastAPI</li><li>React</li><li>TypeScript</li>
+      </ul>
+      <div class="card__links">
+        <a class="btn btn--solid" href="https://insurance-cost-estimator-j5cg.onrender.com" target="_blank" rel="noopener noreferrer">Check it out <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+      </div>
+    </article>
 
-            <!-- Backend & Frameworks -->
-            <div class="cards">
-                <div class="card-content"><h1 class="Title">Backend &amp; Frameworks</h1></div>
-                <div class="row">
-                    <div class="c"><img src="src/Images/nestjs.jpg" alt="NestJS"/><span class="skill-label">NestJS</span></div>
-                    <div class="c"><img src="src/Images/Flask.jpg" alt="Flask"/><span class="skill-label">Flask</span></div>
-                </div>
-                <div class="pills-row">
-                    <span class="pill">Node.js</span>
-                    <span class="pill">FastAPI</span>
-                    <span class="pill">Kafka</span>
-                    <span class="pill">REST APIs</span>
-                    <span class="pill">WebSockets</span>
-                    <span class="pill">JWT</span>
-                    <span class="pill">OAuth2</span>
-                    <span class="pill">Redis</span>
-                </div>
-            </div>
+  </div>
 
-            <!-- DevOps & Cloud -->
-            <div class="cards">
-                <div class="card-content"><h1 class="Title">DevOps &amp; Cloud</h1></div>
-                <div class="row">
-                    <div class="c"><img src="src/Images/aws.png" alt="AWS"/><span class="skill-label">AWS</span></div>
-                    <div class="c"><img src="src/Images/Docker.jpg" alt="Docker"/><span class="skill-label">Docker</span></div>
-                    <div class="c"><img src="src/Images/git.png" alt="Git"/><span class="skill-label">Git</span></div>
-                </div>
-                <div class="pills-row">
-                    <span class="pill">Kubernetes</span>
-                    <span class="pill">NGINX</span>
-                    <span class="pill">Concourse CI/CD</span>
-                    <span class="pill">ArgoCD</span>
-                    <span class="pill">Jenkins</span>
-                    <span class="pill">Bitbucket</span>
-                    <span class="pill">GitHub</span>
-                    <span class="pill">GitLab</span>
-                </div>
-            </div>
+  <p class="work__more">
+    <a href="https://github.com/sathwika05" target="_blank" rel="noopener noreferrer">More on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+  </p>
+</section>
 
-        </div>
-    </section>
+<!-- ═══ CONTACT ═════════════════════════════════════════════════ -->
+<section class="contact" id="contact">
+  <div class="contact__inner">
+  <p class="eyebrow">Contact</p>
+  <h2 class="contact__lead">Let's connect.</h2>
+  <p class="sec-lede" data-fade>
+    Interested in my work or want to discuss an opportunity?
+    Send me a message.
+  </p>
 
-    <!-- ── EDUCATION ── -->
-    <section class="education" id="education">
-        <h5 class="heading"><span>Education</span></h5>
-        <div class="box-container">
+  <form class="form" id="form" novalidate data-grp>
+    <div class="field">
+      <label for="fName">Your name</label>
+      <input id="fName" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
+      <p class="field__err" data-err></p>
+    </div>
 
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>Aug 2025 &ndash; Present</span>
-                <h3>Harrisburg University</h3>
-                <p>Pennsylvania, USA</p>
-                <p>Executive Master of Science in AI for Business</p>
-            </div>
+    <div class="field">
+      <label for="fEmail">Your email</label>
+      <input id="fEmail" name="email" type="email" autocomplete="email" placeholder="name@example.com" required>
+      <p class="field__err" data-err></p>
+    </div>
 
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>Jan 2021 &ndash; Jul 2022</span>
-                <h3>Wright State University</h3>
-                <p>Ohio, USA</p>
-                <p>Master of Science in Computer Science</p>
-                <p><b>CGPA:</b> 3.6 / 4.0</p>
-                <p><b>Relevant Coursework:</b></p>
-                <ul class="courses">
-                    <li>Distributed Computing</li>
-                    <li>Advanced Quantum Computing</li>
-                    <li>Algorithm Design and Analysis</li>
-                    <li>Intro to ANN &amp; Deep Learning</li>
-                </ul>
-            </div>
+    <div class="field">
+      <label for="fMsg">What are you building?</label>
+      <textarea id="fMsg" name="message" rows="3" placeholder="A few lines is plenty." required></textarea>
+      <p class="field__err" data-err></p>
+    </div>
 
-        </div>
-    </section>
+    <button class="btn btn--solid form__send" type="submit">Send message</button>
+    <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+  </form>
 
-    <!-- ── CONTACT ── -->
-    <section class="contact" id="contact">
-        <h5 class="heading"><span>Contact</span></h5>
-        <div class="row">
-            <div class="content">
-                <div class="info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:sathwikap25@gmail.com">sathwikap25@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <a href="https://sathwikap.com" target="_blank" rel="noopener noreferrer">sathwikap.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#2cb9a7" width="22" height="22" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                        <a href="http://linkedin.com/in/sathwikaparshaboina" target="_blank" rel="noopener noreferrer">linkedin.com/in/sathwikaparshaboina</a>
-                    </div>
-                    <div class="contact-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#2cb9a7" width="22" height="22" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg>
-                        <a href="https://github.com/sathwika05" target="_blank" rel="noopener noreferrer">github.com/sathwika05</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>New Jersey, USA</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <ul class="contact__rows">
+    <li><span>Email</span><a href="mailto:sathwikap25@gmail.com">sathwikap25@gmail.com</a></li>
+    <li><span>LinkedIn</span><a href="http://linkedin.com/in/sathwikaparshaboina" target="_blank" rel="noopener">/in/sathwikaparshaboina</a></li>
+    <li><span>GitHub</span><a href="https://github.com/sathwika05" target="_blank" rel="noopener">/sathwika05</a></li>
+  </ul>
+  </div>
+</section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="src/script.js"></script>
+<footer class="foot">
+  <span>© <b id="year">2026</b> Sathwika Parshaboina</span>
+  <a href="#home">Back to top ↑</a>
+</footer>
 
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="src/main.js?v=2"></script>
 </body>
 </html>
